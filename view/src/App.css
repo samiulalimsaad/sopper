@@ -1,0 +1,42 @@
+.featuresIcon:hover i {
+    color: red;
+    animation-name: spin;
+    animation-duration: 600ms;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+.cart button {
+    font-size: 10px;
+}
+
+.social i:hover {
+    animation: heart 0.5s infinite alternate;
+}
+#partner img {
+    height: 30px;
+    width: 80px;
+}
+#partner img:hover {
+    animation: heart 0.4s infinite alternate;
+}
+@keyframes heart {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.2);
+    }
+}
+
+#sidebar a {
+    color: #333;
+}

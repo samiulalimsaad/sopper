@@ -1,0 +1,12 @@
+export { getAboutPage } from "./actions/about";
+export { getCartPage, addCart, removeCart } from "./actions/carts";
+export { getCheckOutPage } from "./actions/checkOut";
+export { getContactPage } from "./actions/contact";
+export { getDigitalPage } from "./actions/digital";
+export { getFurniturePage } from "./actions/furniture";
+export { getHomePage } from "./actions/home";
+export { getKidsPage } from "./actions/kids";
+export { getMenPage } from "./actions/men";
+export { getMyAccountPage } from "./actions/myAccount";
+export { getOtherServicePage } from "./actions/otherService";
+export { getWomenPage } from "./actions/women";
